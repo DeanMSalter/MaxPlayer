@@ -1,0 +1,12 @@
+name: MaxPlayer # the plugins name as it should appear in the plugin list /pl
+version: 1.0 # the plugin's version
+author: Deano3663
+main: McEssence.MaxPlayer.Main
+api-version: 1.18
+commands:
+  maxplayer:
+    permission: maxPlayer
+    description: MaxPlayer command
+  maxplayer reload:
+    permission: maxPlayer.reload
+    description: maxPlayer reload

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+      </profile>
+      <profile name="Annotation profile for MaxPlayer" enabled="true">
+        <sourceOutputDir name="../../../MC/plugins/generated-sources/annotations" />
+        <sourceTestOutputDir name="../../../MC/plugins/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="maxPlayer" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="dynamicMaxPlayer" target="1.8" />
+      <module name="maxPlayer" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+</project>
